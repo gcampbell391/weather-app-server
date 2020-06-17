@@ -23,7 +23,7 @@ app.use(publicDirectoryPath)
 //the order of the app.get routes matters... * will return everything else
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather',
+        title: 'Whats the Weather?',
         name: 'Gene Campbell III'
     })
 })

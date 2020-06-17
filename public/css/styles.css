@@ -22,6 +22,16 @@ footer{
 header{
     margin-top: 16px;
     margin-bottom: 48px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding-bottom: 10px;;
+    
+}
+
+header h1{
+    margin-left: 10px;
+    color:white;
+    text-shadow: 2px 2px black;
 }
 
 h1{
@@ -30,11 +40,34 @@ h1{
 }
 
 header a {
-    color: #888888;
+    color: white;
+    text-shadow: 2px 2px black;
     margin-right: 16px;
     text-decoration: none;
+    margin-left: 10px;
+}
+
+header a:hover {
+    color: yellow;
+    text-shadow: 2px 2px black;
+    margin-right: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+form{
+    padding-bottom: 20px;
+    margin-left: 20px;
 }
 
 #selfie{
     width: 250px;
+}
+
+#forecastContainer{
+    margin-left: 50px;
+}
+
+p{
+    margin-left: 10px;
 }

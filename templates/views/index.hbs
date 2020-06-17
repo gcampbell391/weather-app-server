@@ -6,15 +6,24 @@
     <title>Weather</title>
     <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="/js/app.js"></script>
 </head>
 
 <body>
     <div class="main-content">
         {{>header}}
         <p>Use this app to get your local forecast!</p>
+        <form>
+            <input>
+            <button placeholder="Location">search</button>
+        </form>
+        <div id="forecastContainer">
+            <img src="" id="forecast_icon">
+            <p id="messageOne"></p>
+            <p id="messageTwo"></p>
+        </div>
     </div>
     {{>footer}}
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
