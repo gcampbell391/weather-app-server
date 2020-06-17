@@ -71,3 +71,17 @@ form{
 p{
     margin-left: 10px;
 }
+
+button{
+    cursor: pointer;
+    background-color: skyblue;
+    color:white;
+    font-size: 18px;
+    margin-top: 2px;
+    text-shadow: 2px 2px black;
+}
+
+input{
+    padding:8px;
+    margin-top: -10px;
+}
