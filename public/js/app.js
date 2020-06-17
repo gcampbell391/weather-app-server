@@ -11,7 +11,7 @@ weatherForm.addEventListener('submit', (event) => {
     event.preventDefault()
     const address = event.target.querySelector('input').value
 
-    fetch(`http://localhost:3000/weather?address=${address}`)
+    fetch(`/weather?address=${address}`)
         .then(resp => resp.json())
         .then(data => {
             if (data.error) {
